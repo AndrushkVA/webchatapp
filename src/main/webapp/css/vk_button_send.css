@@ -1,0 +1,45 @@
+﻿.flat_button:active, .flat_button.active, .button_blue button:active, .button_blue button.active {
+    background-color: #5c7ca1;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+.flat_button:hover, .button_blue button:hover, .button_blue button.hover {
+    background-color: #6d8cb0;
+    text-decoration: none;
+}
+.im_send_cont {
+    margin-right: 2px;
+}
+.flat_button, .button_gray button, .button_blue button {
+    padding: 6px 16px 7px 16px;
+    margin: 0;
+    font-size: 11px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    vertical-align: top;
+    overflow: visible;
+    line-height: 13px;
+    text-decoration: none;
+    background: none;
+    background-color: #6383a8;
+    color: #FFF;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: background-color 100ms ease-in-out;
+    -khtml-transition: background-color 100ms ease-in-out;
+    -moz-transition: background-color 100ms ease-in-out;
+    -ms-transition: background-color 100ms ease-in-out;
+    -o-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+}
+.fl_l {
+    float: left;
+}

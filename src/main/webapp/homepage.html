@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/vk_button_send.css">
+    <script src="js/todo.js"></script>
+    <title>FPMI Chat</title>
+    <link rel="shortcut icon" type="image/png" href="http://www.iconsearch.ru/uploads/icons/nuvola2/128x128/chat.png">
+</head>
+<body onload="run()" class="bg">
+<main class="todos">
+    <h1 id="online/ofline">FPMI Chat<img
+            src="http://www.redcube.ru/files/sources/2.8f7614ebb399a685bca5b7e7e98e3bab.png" width="22px"
+            heigth="22px"/>
+        <button class="btn-re-fresh"></button>
+    </h1>
+    <div id="chat">
+        <!-- <div class = "myMessage">
+        <aside>
+        <button class = "todo-button-re" href = "javascript:void(0)" onclick = "document.getElementById('envelope-re-message').style.display='block';document.getElementById('fade').style.display='block'"></button><button class = "todo-button-del"></button>
+        </aside>
+          <div class="text">
+        <p><b>Mike:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error, mollitia expedita tenetur quas, ipsa doloribus provident reprehenderit doloremque consequatur quaerat suscipit repudiandae eum quod. Temporibus nemo mollitia sed ipsum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus ea dolorem dolorum ullam expedita laborum amet officiis soluta tenetur, perferendis fuga, quae, quibusdam eos eius? Illo repellendus deserunt maiores.</p>
+        </div>
+      </div>
+      <div class = "message">
+          <div class="text">
+         <p><b>Jack:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit dolorem ut reiciendis debitis laudantium dignissimos voluptates sint molestiae, sed in sapiente facilis rem, mollitia dolore eaque sit atque velit.</p>
+        </div>
+      </div>
+      <div class = "myMessage">
+        <aside>
+        <button class = "todo-button-re" href = "javascript:void(0)" onclick = "document.getElementById('envelope-re-message').style.display='block';document.getElementById('fade').style.display='block'"></button><button class = "todo-button-del"></button>
+        </aside>
+        <div class="text">
+        <p><b>Mike:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error, mollitia expedita tenetur quas, ipsa doloribus provident reprehenderit doloremque consequatur quaerat suscipit repudiandae eum quod. Temporibus nemo mollitia sed ipsum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus ea dolorem dolorum ullam expedita laborum amet officiis soluta tenetur, perferendis fuga, quae, quibusdam eos eius? Illo repellendus deserunt maiores.</p>
+        </div>
+
+      </div>
+      <div class = "message">
+        <div class="text">
+         <p><b>Jack:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit dolorem ut reiciendis debitis laudantium dignissimos voluptates sint molestiae, sed in sapiente facilis rem, mollitia dolore eaque sit atque velit.</p>
+        </div>
+      </div>
+      <div class = "myMessage">
+        <aside>
+        <button class = "todo-button-re" href = "javascript:void(0)" onclick = "document.getElementById('envelope-re-message').style.display='block';document.getElementById('fade').style.display='block'"></button><button class = "todo-button-del"></button>
+        </aside>
+        <div class="text">
+        <p><b>Mike:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error, mollitia expedita tenetur quas, ipsa doloribus provident reprehenderit doloremque consequatur quaerat suscipit repudiandae eum quod. Temporibus nemo mollitia sed ipsum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus ea dolorem dolorum ullam expedita laborum amet officiis soluta tenetur, perferendis fuga, quae, quibusdam eos eius? Illo repellendus deserunt maiores.</p>
+        </div>
+
+      </div>
+      <div class = "message">
+        <div class="text">
+         <p><b>Jack:</b><a style="color: #ff0000;">Сообщение удалено.</a></p>
+        </div>
+      </div>
+      <div class = "myMessage">
+        <aside>
+        <button class = "todo-button-re" href = "javascript:void(0)" onclick = "document.getElementById('envelope-re-message').style.display='block';document.getElementById('fade').style.display='block'"></button><button class = "todo-button-del"></button>
+        </aside>
+        <div class="text">
+        <p><b>Mike:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error, mollitia expedita tenetur quas, ipsa doloribus provident reprehenderit doloremque consequatur quaerat suscipit repudiandae eum quod. Temporibus nemo mollitia sed ipsum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus ea dolorem dolorum ullam expedita laborum amet officiis soluta tenetur, perferendis fuga, quae, quibusdam eos eius? Illo repellendus deserunt maiores.</p>
+        </div>
+      </div>
+      <div class = "message">
+        <div class="text">
+         <p><b>Jack:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit dolorem ut reiciendis debitis laudantium dignissimos voluptates sint molestiae, sed in sapiente facilis rem, mollitia dolore eaque sit atque velit.</p>
+        </div>
+      </div> -->
+    </div>
+    <div class="addMessage">
+        <div class="myName">
+            <b id="nameUser">Your name</b>
+            <!-- <span class = "todo-result-text"> Всего </b><span class = "counter-holder"></span> сообщения(ий)</span> -->
+        </div>
+        <textarea type="text" wrap="soft" id="todoText" placeholder="Введите сообщение..." class="todo-input-Text"
+                  cols="50"></textarea>
+        <button id="addButton" type="button" class="flat_button im_send_cont" id="sentMsg">Отправить</button>
+    </div>
+    <footer><b>Вячеслав Андрушкевич <br>2 курс 6 группа</br></b>
+        <a href="https://vk.com/id65267273"><img
+                src="http://databy.com/uploads/posts/2015-12/1450165663_vkontakte-1.png" width="50px"
+                height="50px"/></a>
+    </footer>
+
+
+</main>
+</body>
+</html>
